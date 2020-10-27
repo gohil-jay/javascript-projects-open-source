@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(95, 95, 95);
+  color: rgb(95, 95, 95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer {
+  font-size: 150%;
+  width: 45vw;
+  text-align: center;
+  margin: 15px auto 30px auto;
+  color: #fff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#quote-box {
+  border-radius: 20px;
+  width: 45vw;
+  padding: 50px 50px;
+  display: table;
+  background-color: #fff;
+}
+
+#quote-box .quote-text {
+  text-align: center;
+  width: 45vw;
+  height: auto;
+  font-size: 200%;
+}
+
+#quote-box .quote-text i {
+  margin-right: 100%;
+}
+
+#quote-box .quote-author {
+  width: 45vw;
+  height: auto;
+  padding-top: 20px;
+  text-align: right;
+}
+
+#quote-box .buttons {
+  width: 45vw;
+  margin: auto;
+}
+
+#quote-box .buttons .button {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgb(95, 95, 95);
+  font-size: 110%;
+  margin-top: 30px;
+}
+
+#quote-box .buttons .button#tweet-quote, #quote-box .buttons .button#tumblr-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 125%;
+  margin-right: 10px;
+  height: 30px;
+  width: 40px;
+}
+
+#quote-box .buttons .button#new-quote {
+  float: right;
+}
